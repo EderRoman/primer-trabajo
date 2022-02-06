@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Festive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Birthstone&family=Festive&display=swap" rel="stylesheet">
+    <title>Bodega CyG</title>
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Bodega CyG</h1>
+    </header>
+
+    <!--   OCULTAR CODIGO  -->
+<div class="nav-bg">
+    <nav class="navegacion-principal contenedor">
+        <a href="#">inicio</a>
+        <a href="#">Categoria</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
+</div>
+
+    <section class="tienda">
+        <div class="contenido-tienda">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+              </svg>
+        <p>El Tambo - Huancayo</p>
+        <a class="boton" href="">Contactar</a>
+        </div>
+    </section>
+
+    <main class="contenedor sombra">
+        <br>
+        <h2 class="titulo2">Ofertas</h2>
+
+        <div class="ofertas">
+    
+        <section class="productos">
+            <h3>Pack 1</h3>
+            <div class="img">
+                <img class="imagen" src="img/1.jpg">   <!-- INGRESAR IMAGEN DE PRODUCTOS-->
+            </div>
+            <p>s/.10.00</p>
+        </section>
+        
+        <section class="productos">
+            <h3>Pack 2</h3>
+            <div class="img">
+                <img class="imagen2" src="img/2.jpg">
+            </div>
+            <p>s/.20.00</p>
+        </section>
+        
+        <section class="productos">
+            <h3>Pack 3</h3>
+            <div class="img">
+                <img class="imagen3" src="img/3.jpg">
+            </div>
+            <p>s/.30.00</p>
+        </section>
+    </div> 
+    
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Rellene el Formulario</legend> 
+                <div class="contenedor-campos">
+                    <div class="campos">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+                    
+                    <div class="campos">
+                        <label>Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                    </div>
+                    
+                    <div class="campos">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu correo">
+                    </div>
+                    
+                    <div class="campos">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div> <!--contenedor de campos-->
+            
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+               
+                </fieldset>
+            </form>
+            <br>
+        </section>
+    </main>  
+    <footer>
+        <p>EL FIN JUSTIFICA LOS MEDIOS</p>
+    </footer>  
+</body>
+</html>
